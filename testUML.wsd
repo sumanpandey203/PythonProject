@@ -1,0 +1,131 @@
+@startmindmap
+
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .your_style_name {
+    BackgroundColor lightblue
+  }
+}
+</style>
+
+* CsR <<your_style_name>>
+** CsR-1521-Angebotsanfrage Weiterentwicklung DIS-SC-SW (mit UDS) (Important ) <<green>>	
+*** HLR Use NRC (Negative Response Code) to Response
+*** HLR Partition of the memory
+*** HLR Use BMHD
+	
+** CsR-1543-UDS Request <<green>>	
+*** HLR Configure CAN_Rx Message Identifier_CR	
+
+** CsR-1545-UDS Response <<green>>	
+*** HLR Configure CAN Message Identifier_CR
+*** HLR Response Time for UDS Request	
+
+** CsR-1546-Sicherer Zustand SHUTOFF durch KL15 <<green>> 	
+*** HLR Action: No BR ShutOff Sequence
+*** HLR Action : With BR ShutOff Sequence
+	
+** CsR-1547-Sicherer Zustand SHUTOFF durch UDS Befehl <<green>> 	
+*** HLR Jump to Loader SW
+*** HLR Transit to ShutOff via UDS Request
+*** HLR Configure Window Watchdog
+*** HLR Configure Window Watchdog Trigger
+	
+** CsR-1548-Zustände des ICU SC <<green>>	
+	
+** CsR-1549-Sequenzdiagramm Abschaltsequenz <<green>> 	
+	
+** CsR-1551-Shutoff Trigger <<green>> 	
+*** HLR Transit to ShutOff via UDS Request
+*** HLR Action: No BR ShutOff Sequence	
+
+** CsR-1552-Anforderung Programming Session <<green>>	 	
+*** HLR Transit to ShutOff via UDS Request
+*** HLR Action : UDS Request/Response Sequence
+*** HLR Use NRC (Negative Response Code) to Response
+	
+** CsR-1553-Shutoffsequenz <<green>>  	
+*** HLR Action : With BR ShutOff Sequence
+	
+** CsR-1554-Sequenzdiagramm Shutoffsequenz  <<green>>	
+*** HLR Configure Window Watchdog Trigger
+*** HLR Configure Window Watchdog
+*** HLR Action : With BR ShutOff Sequence
+*** HLR Jump to Loader SW
+*** HLR Disable Functional Watchdog
+	
+** CsR-1555-Plausibilisierung der Motorströme (nothing change) <<green>>	
+*** HLR Use UpDownCounter to monitor MotorCurrents Sum	
+
+** CsR-1556-Softwareversionsheader und Datensatzversion <<green>> 	
+*** HLR Use BMHD
+*** HLR Partition of the memory
+*** HLR Allocate Memory Address for SWID
+	
+** CsR-1557-Übertragung der SW Version und der Datensatznummer <<green>>	
+*** HLR Transmit Dataset identifier
+*** HLR Read and Transmit Dataset Number
+*** HLR Read and Transmit SW Version 
+	
+** CsR-1558-Erfassung der Spannung +1,0Voffset für Strommessung <<green>>	
+*** HLR Declare integrity violation for +1.0Voffset	
+
+** CsR-1559-Filtern der Spannung +1,0Voffset <<green>> 	
+*** HLR Filter +1.0Voffset Voltage
+	
+** CsR-2091-2 Overview CAN Messages (Intercontroller) update to CsR-1037 <<green>> 	
+*** HLR Configure CAN_Rx Message Identifier_CR
+*** HLR Configure CAN Tx Cycle time_CR
+*** HLR Configure CAN Message Identifier_CR	
+*** ICD CAN_TX_SWID_DIS_SC (Change request) <<rose>>
+*** ICD CAN_Rx_UDS_Tester_2_DIS_SC-CR <<rose>>
+*** ICD CAN_Tx_ UDS_DIS_SC-CR <<rose>>
+
+** CsR-2092-3.4 SWID_DIS_SC <<green>>	
+*** HLR Read and Transmit SW Version 
+*** HLR Read and Transmit Dataset Number	
+*** ICD revisionVariant <<rose>>  
+*** ICD oemSspecific <<rose>> 
+*** ICD CAN_TX_SWID_DIS_SC (Change request) <<rose>>
+*** ICD releaseMaturity <<rose>> 
+*** ICD hardwareCompatitbility <<rose>> 
+*** ICD datasetVersionNumber <<rose>>
+ 
+** CsR-2094-3.5 UDS_DIS_SC - UDS Response Identifier <<green>>	
+*** HLR Use NRC (Negative Response Code) to Response	
+*** ICD CAN_Tx_ UDS_DIS_SC-CR <<rose>>
+*** ICD udsSidRequest <<rose>>  
+*** ICD udsNRC <<rose>>     
+*** ICD udsResponse <<rose>>          
+*** ICD length Tx <<rose>>
+
+** CsR-2096-3.7 UDS_Tester_2_DIS_SC - UDS Request Identifier <<green>> 	
+*** HLR Action : UDS Request/Response Sequence	
+*** ICD CAN_Rx_UDS_Tester_2_DIS_SC-CR
+*** ICD length Rx <<rose>>
+*** ICD sid <<rose>>
+*** ICD subFunction <<rose>>
+
+** CsR-2099-CR Filterung der Spannung 1Voffset / Up-down-Counter. <<green>>	
+*** HLR Use UpDownCounter to monitor MotorCurrents Sum
+	
+** CsR-2100-Questions about bootloader and 1VOfsset voltage filter <<green>>	
+*** HLR Filter +1.0Voffset Voltage	
+
+** CsR-2700- MoM UDS protocol data length <<green>>	
+*** HLR Action : UDS Request/Response Sequence	
+
+** CsR-2702-Project Release Loader Preparation and Voltage Filter <<green>>	
+*** HLR Use NRC (Negative Response Code) to Response
+	
+** CsR-2699-ONE_VOLT_OFFSET_2MS_FILTER_UNITS <<green>>	
+*** HLR Filter +1.0Voffset Voltage	
+*** ICD one_volt_offset_2ms_filter_units <<rose>>
+
+@endmindmap

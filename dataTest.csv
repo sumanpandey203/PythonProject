@@ -1,0 +1,957 @@
+Title,Description
+activate_dc_relay," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Init to Startup,Startup to SafetyTest,SafetyTest to Operation,Operation to Cyclic Test,Cyclic Test to Operation,Any State to Shutoff,Transition from one of the Init, Startup, Safety Test, Operation to Deactivation,Deactivation to Deactivation failed,Deactivation to Failsafe,Cyclic Test to Init  "
+activate_dc_relay()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Init to Startup,Startup to SafetyTest,SafetyTest to Operation,Operation to Cyclic Test,Cyclic Test to Operation,Any State to Shutoff,Transition from one of the Init, Startup, Safety Test, Operation to Deactivation,Deactivation to Deactivation failed,Deactivation to Failsafe,Cyclic Test to Init  "
+appl_state_run," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Init to Startup,Startup to SafetyTest,SafetyTest to Operation,Operation to Cyclic Test,Cyclic Test to Operation,Any State to Shutoff,Transition from one of the Init, Startup, Safety Test, Operation to Deactivation,Deactivation to Deactivation failed,Deactivation to Failsafe,Cyclic Test to Init  "
+appl_state_run()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Init to Startup,Startup to SafetyTest,SafetyTest to Operation,Operation to Cyclic Test,Cyclic Test to Operation,Any State to Shutoff,Transition from one of the Init, Startup, Safety Test, Operation to Deactivation,Deactivation to Deactivation failed,Deactivation to Failsafe,Cyclic Test to Init  "
+ast_dcrelay_run," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise the dma module by calling init_dma_module(),initialise the SCU by calling ast_scu_init if Resolver PGA411 initialised,Initialise the following DMA Channels by calling init_dma_channel_config() with the following settings  "
+ast_dcrelay_run()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise the dma module by calling init_dma_module(),initialise the SCU by calling ast_scu_init if Resolver PGA411 initialised,Initialise the following DMA Channels by calling init_dma_channel_config() with the following settings  "
+ast_dma_init," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise the dma module by calling init_dma_module(),initialise the SCU by calling ast_scu_init if Resolver PGA411 initialised,Initialise the following DMA Channels by calling init_dma_channel_config() with the following settings  "
+init_dma_module()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise the dma module by calling init_dma_module(),initialise the SCU by calling ast_scu_init if Resolver PGA411 initialised,Initialise the following DMA Channels by calling init_dma_channel_config() with the following settings  "
+init_dma_module()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise the SCU by calling ast_scu_init if Resolver PGA411 initialised,Initialise the following DMA Channels by calling init_dma_channel_config() with the following settings  "
+init_dma_channel_config()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialize QSPI Master module config by calling IfxQspi_SpiMaster_initModuleConfig(),set the maximum baudrate,configure RxFIFO mode in Batch move,update pin configuration,initialize QSPI master module by calling customized function ast_IfxQspi_SpiMaster_initModule(),create channel config by calling IfxQspi_SpiMaster_initChannelConfig(),update SLS output configuration,initialize channel config by calling customized function ast_IfxQspi_SpiMaster_initChannel()  "
+ast_hvm_QspiMasterInit," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialize QSPI Master module config by calling IfxQspi_SpiMaster_initModuleConfig(),set the maximum baudrate,configure RxFIFO mode in Batch move,update pin configuration,initialize QSPI master module by calling customized function ast_IfxQspi_SpiMaster_initModule(),create channel config by calling IfxQspi_SpiMaster_initChannelConfig(),update SLS output configuration,initialize channel config by calling customized function ast_IfxQspi_SpiMaster_initChannel()  "
+ast_hvm_QspiMasterInit()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialize QSPI Master module config by calling IfxQspi_SpiMaster_initModuleConfig(),set the maximum baudrate,configure RxFIFO mode in Batch move,update pin configuration,initialize QSPI master module by calling customized function ast_IfxQspi_SpiMaster_initModule(),create channel config by calling IfxQspi_SpiMaster_initChannelConfig(),update SLS output configuration,initialize channel config by calling customized function ast_IfxQspi_SpiMaster_initChannel()  "
+ast_init_ccu6safetyclearance," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise CCU6 Icu module config by calling IfxCcu6_Icu_initModuleConfig(),Overriding the following default parameters
+frequency with SAFTEY_CLEARANCE_CCU6_PWM_FREQ
+period with SAFTEY_CLEARANCE_CCU6_PERIOD
+clock.extClockEnabled with FALSE
+countMode with IfxCcu6_T12CountMode_edgeAligned
+counterValue with 0
+
+,configure the above configuration by calling IfxCcu6_Icu_initModule(),initialise CCU6 Icu channel config calling IfxCcu6_Icu_initChannelConfig(),Overriding the following default parameters
+channelId with IfxCcu6_T12Channel_1
+channelMode with IfxCcu6_T12ChannelMode_doubleRegisterCaptureRisingAndFalling
+update pin configuration using CC60In pin ICU_SC_COUNT_INPUT
+multiInputCaptureEnabled with FALSE
+
+,configure the above configuration by calling IfxCcu6_Icu_initChannel(),start capture by calling IfxCcu6_Icu_startCapture  "
+ast_init_ccu6safetyclearance()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,initialise CCU6 Icu module config by calling IfxCcu6_Icu_initModuleConfig(),Overriding the following default parameters
+frequency with SAFTEY_CLEARANCE_CCU6_PWM_FREQ
+period with SAFTEY_CLEARANCE_CCU6_PERIOD
+clock.extClockEnabled with FALSE
+countMode with IfxCcu6_T12CountMode_edgeAligned
+counterValue with 0
+
+,configure the above configuration by calling IfxCcu6_Icu_initModule(),initialise CCU6 Icu channel config calling IfxCcu6_Icu_initChannelConfig(),Overriding the following default parameters
+channelId with IfxCcu6_T12Channel_1
+channelMode with IfxCcu6_T12ChannelMode_doubleRegisterCaptureRisingAndFalling
+update pin configuration using CC60In pin ICU_SC_COUNT_INPUT
+multiInputCaptureEnabled with FALSE
+
+,configure the above configuration by calling IfxCcu6_Icu_initChannel(),start capture by calling IfxCcu6_Icu_startCapture  "
+ast_qspi_hvm_init," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+ast_qspi_hvm_init()," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+ast_qspi_hvm_run," LLR-tbd The function ast_qspi_hvm_run() shall update the hvTerminalVoltage by calling readHVTerminalVoltage(). ,LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+ast_qspi_hvm_run(),"LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+readHVTerminalVoltage(),"LLR-tbd The function shall update the dcLinkVoltage by calling readDCLinkVoltage().  ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+readDCLinkVoltage()," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+ast_vadc_run," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+ast_vadc_run()," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+backgroundscan_all_adc_channels," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+backgroundscan_all_adc_channels()," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+calc_qspi_frame_parity," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+iwdt_qspi_frame_t," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,Byte 1: 0xAB,Byte 2: 0xEF,Byte 3: 0x56,Byte 4: 0x12 In case of error during the SPI write , the following error handling shall be performed (TBD) The maximum number of attempts to perform the unlock sequence shall be 3. After unlocking the function shall check the LOCK bit in register PROTSTAT to be 0 and return TRUE else FALSE Note :The Registers SYSPCFG0, SYSPCFG1, WDCFG0, WDCFG1, FWDCFG, WWDCFG0, WWDCFG1 can be written into after the Unlock sequence is successful.  "
+calculate_motor_currents," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+calculate_motor_torque," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+calculate_switching_state," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+calculate_switching_state()," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+ccu6_icu_capture_run," LLR-tbd The Function ccu6_icu_capture_run() shall call monitor_safetyclearance_signal(). ,LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+ccu6_icu_capture_run(),"LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+monitor_safetyclearance_signal(),"LLR-tbd The Function shall update the integrity violation based on monitor_safetyclearance_signal() return. ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+monitor_safetyclearance_signal()," LLR-tbd The Function check_changing_edge_timeout() shall check if the signal is always low. ,LLR-tbd The Function shall check if the signal is always high.  ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_changing_edge_timeout," LLR-tbd The Function check_changing_edge_timeout() shall check if the signal is always low. ,LLR-tbd The Function shall check if the signal is always high.  ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_changing_edge_timeout(),"LLR-tbd The Function shall check if the signal is always high.  ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_falling_edge_to_early," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_falling_edge_to_early()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_rising_edge_to_early," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_rising_edge_to_early()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_T12_Counter_Reset," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+check_T12_Counter_Reset()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+contactor_coil_plausibility_check," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+contactor_coil_plausibility_check()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convert_adc_digits_to_voltage," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convert_adc_digits_to_voltage()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convert_ccu6counts_into_ms," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convert_ccu6counts_into_ms()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convertAdcToVoltage," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+convertAdcToVoltage()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+cyclic_test_run," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+cyclic_test_run()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelay_test_run," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelay_test_run()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelay_wait_for_debounce," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelay_wait_for_debounce()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelaytimer_update," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+dcrelaytimer_update()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivate_dc_relay," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivate_dc_relay()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivation_sequence_run," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivation_sequence_run()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivationFailed_state_cyclicrun," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+deactivationFailed_state_cyclicrun()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+determine_motorcurrent_value_validity," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+failsafe_state_cyclicrun," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+failsafe_state_cyclicrun()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+fetch_adc_result," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+fetch_adc_result()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+get_09_offset_voltage," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+get_09_offset_voltage()," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+get_current_Iq," LLR-tbd The function shall return current Iq, LLR-tbd The function shall return current Iq ,The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+get_dc_main_contact_state,"The main contact is closed when the auxiliary normal open contact is closed and the auxiliary normal contact is OPEN,The main contact is open when the auxiliary normal open contact is open and the auxiliary normal contact is CLOSED,In all other cases the main contact has UNDEFINED state. "
+get_dcrelay_coil_current,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_dcrelay_coil_current(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_dcrelay_coil_voltage,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_dcrelay_coil_voltage(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_minus_24,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_minus_24(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_plus_15,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_plus_15(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_plus_24,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitor_voltage_plus_24(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_1V_Offset_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_1V_Offset_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_KL15_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_KL15_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_KL30_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_KL30_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_minus_24V_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_minus_24V_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_plus_15V_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_plus_15V_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_plus_24V_scaled,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_monitoring_voltage_plus_24V_scaled(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i1,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i1(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i2,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i2(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i3,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i3(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i4,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_i4(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_MotorCurrent_Ix_Sample,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_normal_closed_contact_state,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_normal_closed_contact_state(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_normal_open_contact_state,"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_normal_open_contact_state(),"A closed contact is detected if at least the last three signal changes.,An open contact is detected when the signal remains constant at HIGH level.,In all other cases, the status of the auxiliary contact as undefined. "
+get_Resolver3v3_voltage,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_Resolver3v3_voltage(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_SafetyDiagnCurrent,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_SafetyDiagnVoltage(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_SafetyDiagnVoltage,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_SafetyDiagnVoltage(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_status_KL15_hysteresis_high,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_status_KL15_hysteresis_high(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_status_KL15_hysteresis_low,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_status_KL15_hysteresis_low(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_voltage_KL15,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_voltage_KL15(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_voltage_KL30,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+get_voltage_KL30(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getApplState,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getApplState(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getDCLinkVoltage,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getHVTerminalVoltage,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getIwdtState,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getIwdtState(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getMotorTorque,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getProtectionStatus,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getProtectionStatus(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getSpiFlags,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getSpiFlags(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_cyclic_test_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_cyclic_test_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_cyclic_test_result,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_cyclic_test_result(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelay_test_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelay_test_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelay_test_result,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelay_test_result(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelaytimer_expired,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelaytimer_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_dcrelaytimer_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_deactivationsequence_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_deactivationsequence_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_deactivationsequence_result,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_deactivationsequence_result(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_external_safetyclearance,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_external_safetyclearance(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_IntegrityViolation,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_IntegrityViolation(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_KL15,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_KL15(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_KL15_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_KL15_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_safetyclearnce_violation,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_safetyclearnce_violation(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_shutoffsequence_progress,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_shutoffsequence_progress(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getStatus_shutoffsequence_result,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+getVoltageDeviation,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+init_adc_group_config,"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+init_adc_group_config(),"initialize group config by calling IfxVadc_Adc_initGroupConfig,Overriding the following default parameters
+requestSlotScanEnabled with TRUE
+requestSlotStartMode with (groupId==IfxVadc_GroupId_0) ? IfxVadc_RequestSlotStartMode_cancelInjectRepeat : IfxVadc_RequestSlotStartMode_waitForStart ;
+autoscanEnabled with FALSE
+requestSlotBackgroundScanEnabled with TRUE
+backgroundScanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest gatingMode with IfxVadc_GatingMode_always
+scanRequest triggerMode with IfxVadc_TriggerMode_uponFallingEdge ;
+scanRequest triggerSource with IfxVadc_TriggerSource_7;
+
+,initialize the group by calling IfxVadc_Adc_initGroup param[in] groupdId as IfxVadc_GroupId for ADC group  "
+init_adcChannelConfig,"set the channel config parameters,set DMA channels param[in] groupdId as IfxVadc_GroupId for ADC group param[in] ch_index as uint8 for channel index param[in] channelId as IfxVadc_ChannelId for channel Id, param[in] resultReg as IfxVadc_ChannelResult for channel result register  "
+init_adcChannelConfig(),"set the channel config parameters,set DMA channels param[in] groupdId as IfxVadc_GroupId for ADC group param[in] ch_index as uint8 for channel index param[in] channelId as IfxVadc_ChannelId for channel Id, param[in] resultReg as IfxVadc_ChannelResult for channel result register  "
+init_adcGroup_with_Channels,"ADC Group 1 and ADC Channel AN12 (Channel Id 0 with Result Register 0) and then,ADC Group 0 and ADC Channel AN0, AN1 (Channel Id 0,1 with Result Register 0,1)  "
+init_adcGroup_with_Channels(),"ADC Group 1 and ADC Channel AN12 (Channel Id 0 with Result Register 0) and then,ADC Group 0 and ADC Channel AN0, AN1 (Channel Id 0,1 with Result Register 0,1)  "
+init_adc_group_config(),"ADC Group 1 and ADC Channel AN12 (Channel Id 0 with Result Register 0) and then,ADC Group 0 and ADC Channel AN0, AN1 (Channel Id 0,1 with Result Register 0,1)  "
+init_backgroundscan_adc_all_channels,"initialize ADC channel config by calling IfxVadc_Adc_initChannelConfig(),Overriding the following default parameters
+channelId with channel Id received as parameter
+resultRegister with result register received as parameter
+backgroundChannel with TRUE
+
+,initialize the channel by calling IfxVadc_Adc_initChannel(),call IfxVadc_Adc_setBackgroundScan() param[in] groupdId as IfxVadc_GroupId for ADC group param[in] channelid as IfxVadc_ChannelId for channel Id param[in] resultRegister as IfxVadc_ChannelResult for channel result register  "
+init_backgroundscan_adc_all_channels(),"initialize ADC channel config by calling IfxVadc_Adc_initChannelConfig(),Overriding the following default parameters
+channelId with channel Id received as parameter
+resultRegister with result register received as parameter
+backgroundChannel with TRUE
+
+,initialize the channel by calling IfxVadc_Adc_initChannel(),call IfxVadc_Adc_setBackgroundScan() param[in] groupdId as IfxVadc_GroupId for ADC group param[in] channelid as IfxVadc_ChannelId for channel Id param[in] resultRegister as IfxVadc_ChannelResult for channel result register  "
+init_backgroundscan_adc_channel(),"initialize ADC channel config by calling IfxVadc_Adc_initChannelConfig(),Overriding the following default parameters
+channelId with channel Id received as parameter
+resultRegister with result register received as parameter
+backgroundChannel with TRUE
+
+,initialize the channel by calling IfxVadc_Adc_initChannel(),call IfxVadc_Adc_setBackgroundScan() param[in] groupdId as IfxVadc_GroupId for ADC group param[in] channelid as IfxVadc_ChannelId for channel Id param[in] resultRegister as IfxVadc_ChannelResult for channel result register  "
+init_backgroundscan_adc_channel,"initialize ADC channel config by calling IfxVadc_Adc_initChannelConfig(),Overriding the following default parameters
+channelId with channel Id received as parameter
+resultRegister with result register received as parameter
+backgroundChannel with TRUE
+
+,initialize the channel by calling IfxVadc_Adc_initChannel(),call IfxVadc_Adc_setBackgroundScan() param[in] groupdId as IfxVadc_GroupId for ADC group param[in] channelid as IfxVadc_ChannelId for channel Id param[in] resultRegister as IfxVadc_ChannelResult for channel result register  "
+init_backgroundscan_adc_channel(),"initialize ADC channel config by calling IfxVadc_Adc_initChannelConfig(),Overriding the following default parameters
+channelId with channel Id received as parameter
+resultRegister with result register received as parameter
+backgroundChannel with TRUE
+
+,initialize the channel by calling IfxVadc_Adc_initChannel(),call IfxVadc_Adc_setBackgroundScan() param[in] groupdId as IfxVadc_GroupId for ADC group param[in] channelid as IfxVadc_ChannelId for channel Id param[in] resultRegister as IfxVadc_ChannelResult for channel result register  "
+init_dma_channel_config,"initialise a basic Dma config by calling IfxDma_Dma_initChannelConfig(),Overriding the following default parameters
+transfercount with number_of_transactions
+sourceAddress with dmaSrcAddr
+destinationAddress with dmaDestAddr
+channelId with dma_channel
+requestMode with IfxDma_ChannelRequestMode_completeTransactionPerRequest
+moveSize with IfxDma_ChannelMoveSize_32bit
+destinationAddressCircularRange with IfxDma_ChannelIncrementCircular_4
+sourceAddressCircularRange with IfxDma_ChannelIncrementCircular_4
+destinationCircularBufferEnabled to TRUE
+sourceCircularBufferEnabled to TRUE
+operationMode with IfxDma_ChannelOperationMode_continuous
+requestSource with IfxDma_ChannelRequestSource_peripheral
+channelInterruptEnabled to TRUE
+if dmaChannel is 14, then destinationAddressCircularRange range to IfxDma_ChannelIncrementCircular_16
+if dmaChannel is 5
+destinationAddressCircularRange with IfxDma_ChannelIncrementCircular_256
+sourceAddressCircularRange with IfxDma_ChannelIncrementCircular_16
+sourceAddressIncrementDirection to IfxDma_ChannelIncrementDirection_positive
+destinationAddressIncrementDirection to IfxDma_ChannelIncrementDirection_positive
+
+
+
+,configure the above configuration by calling IfxDma_Dma_initChannel()  "
+init_dma_channel_config(),"initialise a basic Dma config by calling IfxDma_Dma_initChannelConfig(),Overriding the following default parameters
+transfercount with number_of_transactions
+sourceAddress with dmaSrcAddr
+destinationAddress with dmaDestAddr
+channelId with dma_channel
+requestMode with IfxDma_ChannelRequestMode_completeTransactionPerRequest
+moveSize with IfxDma_ChannelMoveSize_32bit
+destinationAddressCircularRange with IfxDma_ChannelIncrementCircular_4
+sourceAddressCircularRange with IfxDma_ChannelIncrementCircular_4
+destinationCircularBufferEnabled to TRUE
+sourceCircularBufferEnabled to TRUE
+operationMode with IfxDma_ChannelOperationMode_continuous
+requestSource with IfxDma_ChannelRequestSource_peripheral
+channelInterruptEnabled to TRUE
+if dmaChannel is 14, then destinationAddressCircularRange range to IfxDma_ChannelIncrementCircular_16
+if dmaChannel is 5
+destinationAddressCircularRange with IfxDma_ChannelIncrementCircular_256
+sourceAddressCircularRange with IfxDma_ChannelIncrementCircular_16
+sourceAddressIncrementDirection to IfxDma_ChannelIncrementDirection_positive
+destinationAddressIncrementDirection to IfxDma_ChannelIncrementDirection_positive
+
+
+
+,configure the above configuration by calling IfxDma_Dma_initChannel()  "
+init_dma_module,"Initialise the DMA Configuration by calling IfxDma_Dma_initModuleConfig(),Initialise the DMA module by calling IfxDma_Dma_initModule() with the above configuration  "
+init_dma_module(),"Initialise the DMA Configuration by calling IfxDma_Dma_initModuleConfig(),Initialise the DMA module by calling IfxDma_Dma_initModule() with the above configuration  "
+initIvStatus_beginFrame,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+initIvStatus_beginFrame(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+integrityviolation_t,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+is_all_bits_set,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+is_all_bits_set(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+is_alternate_pattern,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+is_alternate_pattern(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+isDcRelayActivated,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+isDcRelayActivated(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+isVoltageDeviation_lessthan_35V,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_dcrelay_main_contact,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_dcrelay_main_contact(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_dcrelay_main_contact_closed,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_dcrelay_main_contact_closed(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_safetyclearance_signal,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_safetyclearance_signal(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_15V,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_15V(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_1V_offset,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_1V_offset(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_24V,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+monitor_voltage_24V(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+opreation_state_cyclicrun,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+opreation_state_cyclicrun(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+read_auxiliary_contacts_inputs,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+read_auxiliary_contacts_inputs(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+readDCLinkVoltage,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+readDCLinkVoltage(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+readHVTerminalVoltage,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+readHVTerminalVoltage(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+send_toggling_signal,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+send_toggling_signal(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+set_ApplState,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+set_ApplState(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+set_integrityviolation_progress,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+set_integrityviolation_progress(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+shutoff_sequence_run,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+shutoff_sequence_run(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+signal_level_detection,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+signal_level_detection(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+startup_state_cyclicrun,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+startup_state_cyclicrun(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+sum_of_3_currents,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+tlf35584_init,"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+tlf35584_init(),"Unlock SPI special registers by calling tlf35584_unlock(),write via SPI into the WDCFG0 to enable Functional Watchdog  "
+tlf_clear_errors,"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_clear_errors(),"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_configure_fwdog,"Read the question index by calling tlf_read() for functional watchdog status register,perform IWDT write with look up table response
+Write the Byte 0,1,2 into Functional Watchdog Response command register
+Write the Byte 3 into Functional Watchdog Response Sync command register  
+
+"
+tlf_configure_fwdog(),"Read the question index by calling tlf_read() for functional watchdog status register,perform IWDT write with look up table response
+Write the Byte 0,1,2 into Functional Watchdog Response command register
+Write the Byte 3 into Functional Watchdog Response Sync command register  
+
+"
+tlf_fwdog_periodic_service,"Read the question index by calling tlf_read() for functional watchdog status register,perform IWDT write with look up table response
+Write the Byte 0,1,2 into Functional Watchdog Response command register
+Write the Byte 3 into Functional Watchdog Response Sync command register  
+
+"
+tlf_fwdog_periodic_service(),"Read the question index by calling tlf_read() for functional watchdog status register,perform IWDT write with look up table response
+Write the Byte 0,1,2 into Functional Watchdog Response command register
+Write the Byte 3 into Functional Watchdog Response Sync command register  
+
+"
+tlf_read(),"perform IWDT write with look up table response
+Write the Byte 0,1,2 into Functional Watchdog Response command register
+Write the Byte 3 into Functional Watchdog Response Sync command register  
+
+"
+tlf_lock,"0xDF,0x34,0xBE,0xCA  "
+tlf_lock(),"0xDF,0x34,0xBE,0xCA  "
+tlf_read,"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_read(),"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_read_errors,"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_read_errors(),"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_read(),"INITERR,OTFAIL,OTWRNSF,MONSF0,MONSF1,MONSF2,MONSF3,SPISF,WKSF  "
+tlf_read_status_registers_set0,"system cfg 0 status,system cfg 1 status,wdog cfg 0 status,wdog cfg 1 status,fwdog cfg status  "
+tlf_read_status_registers_set0(),"system cfg 0 status,system cfg 1 status,wdog cfg 0 status,wdog cfg 1 status,fwdog cfg status  "
+tlf_read_status_registers_set1,"wwdog cfg 0 status,wwdog cfg 1 status,failure status flags,init error status flags,system status flags  "
+tlf_read_status_registers_set1(),"wwdog cfg 0 status,wwdog cfg 1 status,failure status flags,init error status flags,system status flags  "
+tlf_read_status_registers_set2,"wakeup status flags,SPI status flags,monitor status flags 0,monitor status flags 1,monitor status flags 2  "
+tlf_read_status_registers_set2(),"wakeup status flags,SPI status flags,monitor status flags 0,monitor status flags 1,monitor status flags 2  "
+tlf_read_status_registers_set3,"monitor status flags 3,over temperature failure status flags,over temperature warning status flags,voltage monitor status  "
+tlf_read_status_registers_set3(),"monitor status flags 3,over temperature failure status flags,over temperature warning status flags,voltage monitor status  "
+tlf_read_status_registers_set4,"device status,protection status,window watchdog status,fwdog status 1  "
+tlf_read_status_registers_set3(),"device status,protection status,window watchdog status,fwdog status 1  "
+tlf_switch_state_NORMAL,"Writing 0xFA into the Device Control register,Writing ~0xFA into the Device Control register,performing a wait for 200us  "
+tlf_switch_state_NORMAL(),"Writing 0xFA into the Device Control register,Writing ~0xFA into the Device Control register,performing a wait for 200us  "
+tlf_switch_state_Standby,"Writing 0xFC into the Device Control register,Writing ~0xFC into the Device Control register,performing a wait for 200us  "
+tlf_switch_state_Standby(),"Writing 0xFC into the Device Control register,Writing ~0xFC into the Device Control register,performing a wait for 200us  "
+tlf_switch_state_WAKE,"Writing 0x1F into the ABIST_SELECT0 register,Writing 0x0E into the ABIST_SELECT1 register,Writing 0xC1 into the ABIST_SELECT2 register,Writing 0x07 into the ABIST_CTRL0 register  "
+tlf_switch_state_WAKE(),"Writing 0x1F into the ABIST_SELECT0 register,Writing 0x0E into the ABIST_SELECT1 register,Writing 0xC1 into the ABIST_SELECT2 register,Writing 0x07 into the ABIST_CTRL0 register  "
+tlf_unlock,"0xAB,0xEF,0x56,0x12  "
+tlf_unlock(),"0xAB,0xEF,0x56,0x12  "
+tlf_write,"Generated by
+    
+ 1.8.16 "
+tlf_write(),"Generated by
+    
+ 1.8.16 "
+tlf_writeX,"Generated by
+    
+ 1.8.16 "
+tlf_writeX(),"Generated by
+    
+ 1.8.16 "
+updateIntegrityViolationStatus,"Generated by
+    
+ 1.8.16 "
+updateIntegrityViolationStatus(),"Generated by
+    
+ 1.8.16 "
+voltage_monitor_run,"Generated by
+    
+ 1.8.16 "
+voltage_monitor_run(),"Generated by
+    
+ 1.8.16 "

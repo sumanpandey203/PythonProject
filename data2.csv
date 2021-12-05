@@ -1,0 +1,27 @@
+Title,Description
+Differences,"Due to the nature of complex systems, the high-level description will often be completely different from the low level one; and, therefore, the (different) descriptions that each deliver are consequent upon the level at which each (differently) direct their study. For example,
+
+there are features of an ant colony that are not features of any individual ant;
+there are features of the human mind that are not known to be descriptive of individual neurons in the brain;
+there are features of oceans which are not features of any individual water molecule; and
+there are features of a human personality that are not features of any cell in a body."
+Uses,"In computer science, software is typically divided into two types: high-level end-user applications software (such as word processors, databases, video games, etc.), and low-level systems software (such as operation systems, hardware drivers, etc.).As such, high-level applications typically rely on low-level applications to function.In terms of programming, a high-level programming language is one which has a relatively high level of abstraction, and manipulates conceptual functions in a structured manner.A low-level programming language is one like assembly language that contains rudimentary microprocessor commands.
+In formal methods, a high-level formal specification can be related to a low-level executable implementation (e.g., formally by mathematical proof using formal verification techniques).
+In sociology and social anthropology, high-level descriptions would be terms like economy and political structure, and low level descriptions would be individual peoples' motivations and work.
+In neuroscience, low-level would relate to the functioning of a cell (or part of a cell, or molecule) and high level to the overall function or activity of a neural system.[1]
+In documentation, a high-level document contains the executive summary, the low-level documents the technical specifications.
+In business, corporate strategy is a high-level description, a list of who does what jobs is a low level description."
+Examples,"Climate is a high-level description of the actions of the atmosphere and oceans. Physics of water and gas molecules is a low-level description of the same system.
+The instruction ""write a creative poem on love"" is a high-level instruction. The instruction ""tighten the tendons in the dominant wrist to grip the pen"" is a low-level description of an activity within that.
+""Wikipedia is an encyclopedia"" is a high-level description compared to ""Wikipedia is a collection of textual articles on many topics"". The former reflects a higher level view of organization, purpose, concept and structure, but does not explain what Wikipedia physically is. The latter is more detailed as to what exactly Wikipedia contains and how it's made up, but doesn't explain what its overall purpose and goals are. These are typical features of high-level and low-level descriptions."
+See also,"Complex systems
+Complexity
+Cybernetics
+Granularity
+Dennett's three stances
+Levels of analysis
+Meta-systems
+Self-organization
+Systems thinking"
+References,"^ Marr, David (1982). Vision: A Computational Investigation into the Human Representation and Processing of Visual Information. San Francisco: W. H. Freeman and Company. ISBN 0-7167-1284-9..mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:""\""""""\""""""'""""'""}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url(""//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png"")no-repeat;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url(""//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png"")no-repeat;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url(""//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png"")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url(""//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png"")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}
+"
